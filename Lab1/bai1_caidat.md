@@ -1,1 +1,2 @@
-![Hình Chụp Đã Kết Nối GitHub]](image.png)
+![Hình Chụp Đã Kết Nối GitHub]
+(image.png)

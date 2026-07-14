@@ -32,6 +32,5 @@ int main() {
     printf("Tuoi: %d\n", tuoi);
     printf("Diem Trung Binh: %.2f\n", dtb);
 
-    
     return 0;
 }

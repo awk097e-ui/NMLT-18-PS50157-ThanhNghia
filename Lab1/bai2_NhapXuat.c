@@ -10,11 +10,11 @@ int main() {
     // Nhập dữ liệu
     printf("Nhap ma so sinh vien: ");
     fgets(mssv, sizeof(mssv), stdin);
-    mssv[strcspn(mssv, "\n")] = '\0';   // xóa ký tự xuống dòng
+    mssv[strcspn(mssv, "\n")] = '\0';   
 
     printf("Nhap ho va ten: ");
     fgets(hoten, sizeof(hoten), stdin);
-    hoten[strcspn(hoten, "\n")] = '\0'; // xóa ký tự xuống dòng
+    hoten[strcspn(hoten, "\n")] = '\0'; 
 
     printf("Nhap nam sinh: ");
     scanf("%d", &namsinh);
@@ -22,10 +22,8 @@ int main() {
     printf("Nhap diem trung binh: ");
     scanf("%f", &dtb);
 
-    // Tính tuổi
     tuoi = 2026 - namsinh;
 
-    // Xuất dữ liệu
     printf("\nMa so sinh vien: %s\n", mssv);
     printf("Ho Va Ten: %s\n", hoten);
     printf("Nam sinh: %d\n", namsinh);

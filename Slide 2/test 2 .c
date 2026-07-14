@@ -13,5 +13,6 @@ int main (){
     printf("So Tuan : %d\n",soTuan);     
     printf("So Ngay Le : %d\n",soNgayLe);
     printf("Tong Tien : %d",soTuan*giaTuan + soNgayLe*giaNgay);
+    
     return 0;
 }

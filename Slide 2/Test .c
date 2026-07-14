@@ -8,4 +8,5 @@ int main () {
     printf("Tuoi cua ban la: %d", 2026 - namSinh);
     return 0;
 
+    
 }

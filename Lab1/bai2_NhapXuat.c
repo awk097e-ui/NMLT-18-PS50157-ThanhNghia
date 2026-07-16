@@ -24,12 +24,13 @@ int main() {
 
     tuoi = 2026 - namsinh;
 
+    
     printf("\nMa so sinh vien: %s\n", mssv);
     printf("Ho Va Ten: %s\n", hoten);
     printf("Nam sinh: %d\n", namsinh);
     printf("Tuoi: %d\n", tuoi);
     printf("Diem Trung Binh: %.2f\n", dtb);
 
-    
+
     return 0;
 }
